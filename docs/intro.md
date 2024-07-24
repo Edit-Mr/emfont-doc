@@ -1,47 +1,24 @@
 ---
 slug: /
+title: 歡迎來到 emfont
+sidebar_label: 歡迎來到 emfont
+sidebar_position: 1
 ---
 
-# Tutorial Intro
+# 歡迎來到 emfont
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## 免費為你的文字注入靈魂
 
-## Getting Started
+文字是網站的靈魂，是思想的表達，更是美感的載體。然而，中文字體因為檔案龐大、需要耗費大量流量，很少有免費中文字體的 webfont 服務。emfont 的誕生正是為了填補這一空白，整理了許多開源免費的字體。為小型開發者和個人提供一個優秀的中文字體解決方案。
 
-Get started by **creating a new site**.
+## emfont 的特點
+* **免費**：開源字體，完全免費。
+* **簡單**：只需一行 JavaScript，自動完成所有操作。
+* **極致壓縮**：字體檔預設壓縮為 .woff 格式，載入速度快。
+* **細微控制**：根據網站分頁格式，自訂生成規則。
+* **明確授權條款**：所有字體皆標示授權條款，避免侵權。
+* **開源**：採用 Apache-2.0 授權。
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+身為一位全端工程師，emfont 在設計的時候希望能夠做到盡可能的簡單易用，同時又能夠滿足大部分的需求。我敢保證，你只需要五分鐘就能完全上手 emfont。
 
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+準備好了嗎？讓我們開始吧！

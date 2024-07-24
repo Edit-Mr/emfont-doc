@@ -10,8 +10,8 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: "emfont Docs",
-    tagline: "Official Documentation for emfont",
+    title: "emfont 文檔",
+    tagline: "emfont 官方教學文檔",
     favicon: "img/favicon.ico",
 
     // Set the production url of your site here
@@ -52,14 +52,11 @@ const config = {
                 theme: {
                     customCss: "./src/css/custom.css",
                 },
-            }),
-            "@docusaurus/preset-classic",
-            {
                 gtag: {
                     trackingID: "G-H69XEEC798",
                     anonymizeIP: true,
                 },
-            },
+            }),
         ],
     ],
 
@@ -69,7 +66,7 @@ const config = {
             // Replace with your project's social card
             image: "img/docusaurus-social-card.jpg",
             navbar: {
-                title: "emfont",
+                title: "emfont 文檔",
                 // logo: {
                 //     alt: "emfont Logo",
                 //     src: "img/logo.svg",
@@ -79,7 +76,7 @@ const config = {
                         type: "docSidebar",
                         sidebarId: "tutorialSidebar",
                         position: "left",
-                        label: "Tutorial",
+                        label: "文檔",
                     },
                     {
                         href: "https://font.emtech.cc",
